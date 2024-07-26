@@ -3,11 +3,11 @@
  * printf_char - prints a char
  * Return:1
  */
-int printf_char(va_list val)
+int printf_char(va_list args)
 {
-	char (str):
+	char (str);
 
-	str = va_arg(val, int);
+	str = va_arg(args, int);
 	_putchar(str);
 	return(1);
 }
