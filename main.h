@@ -2,4 +2,5 @@
 #define MAIN_H
 int _printf(const char *format, ...);
 int _putchar(char c);
+int printf_string(va_list val):
 #endif 
