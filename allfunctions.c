@@ -59,6 +59,17 @@ int print_percent(va_list args)
 
 	return (write(1, "%", 1));
 }
+
+/**
+ * print_decimal - Function that prints decimal
+ *
+ * @args: The parameter that represents arguments of variadic function
+ *
+ * Return: Returns the count of decimal
+ *
+ *
+ */
+
 int print_decimal(va_list args)
 {
 	int digit_count = 1;
