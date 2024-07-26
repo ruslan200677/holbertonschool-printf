@@ -102,7 +102,7 @@ int print_decimal(va_list args)
 
 /**
  * print_integer - Function that prints integer
- * Return: Returns 
+ * Return: Returns
  */
 
 int print_integer(va_list args)
