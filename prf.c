@@ -5,6 +5,7 @@
 /**
  * _printf - Function that produces output according to a format
  *
+ * @format: The parameter that represents character string
  * Return: Returns the count of characters
  *
  */
