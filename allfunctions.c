@@ -6,7 +6,7 @@
  * print_char - prints character
  *
  * Return: Returns the number of the character printed
- *
+ *@args: The parameter that
  */
 
 int print_char(va_list args)
@@ -21,7 +21,7 @@ int print_char(va_list args)
  * print_string - prints string
  *
  * Return: Returns the count of printed characters
- *
+ *@args: The parameter that
  */
 
 int print_string(va_list args)
@@ -50,7 +50,7 @@ int print_string(va_list args)
  *
  * Return: Returns the percent sign
  *
- *
+ *@args: The parameter that
  */
 
 int print_percent(va_list args)
@@ -103,6 +103,7 @@ int print_decimal(va_list args)
 /**
  * print_integer - Function that prints integer
  * Return: Returns
+ * @args: The parameter that
  */
 
 int print_integer(va_list args)
