@@ -1,1 +1,31 @@
-salam
+NAME
+       printfc - print formatted output to the console
+
+SYNOPSIS
+       #include <stdio.h>
+
+       int printfc(const char *format, ...);
+
+DESCRIPTION
+       The printfc function prints formatted text to the console. It can handle:
+
+       %d    Integer
+       %f    Decimal number
+       %c    Character
+       %s    String
+       %%    Percent sign
+
+RETURN VALUE
+       Returns the number of characters printed, or a negative value if there is an error.
+
+EXAMPLES
+       #include <stdio.h>
+
+       int main() {
+           printfc("Integer: %d\n", 10);
+           printfc("Decimal: %f\n", 3.14);
+           printfc("Character: %c\n", 'A');
+           printfc("String: %s\n", "Hello, world!");
+           printfc("Percent: %%\n");
+           return 0;
+       }
